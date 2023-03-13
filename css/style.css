@@ -1,0 +1,27 @@
+*{
+    background-color: #e1e1e1;
+}
+
+#submit{
+    background-color: #d38900;
+    height: 3em;
+    font-size: 1em;
+    color: #e1e1e1;
+
+}
+
+#submit,#meddelande,#namn{
+    border-color: black;
+}
+
+#meddelande{
+    border-width: 0.15em;
+}
+#del{
+    background-color: #e84d4d;
+    height: 2em;
+    font-size: 1em;
+    color: #e1e1e1;
+    margin: 0;
+    display: inline-block;
+}

@@ -1,6 +1,6 @@
 <?php
-require_once "dbdelete.php";
-require_once "dbadd.php";
+require_once "includes/dbdelete.php";
+require_once "includes/dbadd.php";
 ?>
 
     <!DOCTYPE html>
@@ -9,16 +9,18 @@ require_once "dbadd.php";
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Visitors</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+
+        <title>Comment section</title>
 
     </head>
     <body>
-    <h1>joujo Gästbok</h1>
+    <h1>Joujo's Gästbok</h1>
 
     <form method="POST">
         Namn: <br> <input type="text" name="namn" id="namn" placeholder="Namn" required>
         <br>
-        Meddelande: <br> <textarea id="meddelande" name="meddelande" rows="5" cols="50" placeholder="Skriv en kommentar" required></textarea>
+        Meddelande: <br> <textarea id="meddelande" name="meddelande" rows="5" cols="50" placeholder="Skriv en kommentar:" required></textarea>
         <br>
         <input type="submit" name="submit" id="submit" value="Skapa inlägg">
     </form>
